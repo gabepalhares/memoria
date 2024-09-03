@@ -8,19 +8,19 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="See pictures from Gabriel Palhares' personal gallery."
+            content="See pictures from minortypo's personal gallery."
           />
           <meta property="og:site_name" content="m-emoria.vercel.app" />
           <meta
             property="og:description"
-            content="See pictures from Gabriel Palhares' personal gallery."
+            content="See pictures from minortypo's personal gallery."
           />
-          <meta property="og:title" content="Gabriel Palhares' personal gallery" />
+          <meta property="og:title" content="Memoria - Gabriel's personal gallery" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Gabriel Palhares' personal gallery" />
+          <meta name="twitter:title" content="Memoria - Gabriel's personal gallery" />
           <meta
             name="twitter:description"
-            content="See pictures from Gabriel Palhares' personal gallery."
+            content="See pictures from minortypo's  personal gallery."
           />
         </Head>
         <body className="bg-black antialiased">
