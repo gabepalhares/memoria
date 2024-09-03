@@ -31,11 +31,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>Memoria</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://m-emoria.vercel.app/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://m-emoria.vercel.app/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -48,16 +48,16 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           />
         )}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
-          <div className="after:content relative mb-5 flex h-[470px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-gradient-to-r from-zinc-800/10 via-zinc-600/20 to-zinc-300/30 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="mb-5 flex h-[470px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-gradient-to-r from-zinc-800/10 via-zinc-600/20 to-zinc-300/30 px-6 pb-16 pt-64 text-center text-white lg:pt-0">
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               memoria
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              This is where I share special moments and what I love in this life.
-              After leaving Instagram, I wanted a space that truly reflects my life and journey, without distractions.
+              This is where I share special moments and what I love in life.
+              After leaving Instagram, I wanted a space that truly reflects my life and journey, away from distractions.
             </p>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              So, welcome to my <strong>online refuge.</strong>
+              Welcome to my <strong>online refuge.</strong>
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
